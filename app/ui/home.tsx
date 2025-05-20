@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import "@/app/ui/ui.css"
+import { useState, useEffect } from "react";
 
 export default function HomeUi(){
     
@@ -15,11 +16,32 @@ export default function HomeUi(){
         { day: "Sunday", time: "Closed" },
     ];
 
+    const heroImages = [
+        { src: "/riversong_hero_Phantom-65S.webp", id: "Phantom 65S" },
+        { src: "/riversong_hero_motive9.webp", id: "Motive 9 Pro" },
+        { src: "/riversong_hero_earpod.webp", id: "Utopia H5" },
+        { src: "/rs_hero_da2.webp", id: "Rhythm M6" },
+    ];
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        
+        const interval = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % heroImages.length);
+        }, 3000);
+
+        return () => clearInterval(interval);
+        
+    }, []);
+
+    const currentHero = heroImages[currentIndex];
+
     return(
         <div className="md:p-3">
             {/* Hero and Intro */}
             <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
-                <img className="hidden sm:flex w-full md:h-[40rem]" src="/riversong_hero_Phantom-65S.webp" alt="hero Image" />
+            <img className="hidden sm:flex w-full md:h-[35rem]" src={currentHero.src || "/riversong_hero_Phantom-65S.webp"} alt="hero Image" />
                 <img className="sm:hidden" src="/river_song_hero.jpg" alt="hero Image" />
 
                 <div className="block w-full p-5 text-center md:w-[22rem] h-auto md:absolute right-8 top-5 bg-[rgba(0,0,0,0.8)] text-gray-200 md:text-xl md:rounded-[2rem]">
@@ -31,8 +53,8 @@ export default function HomeUi(){
                     </div>
                 </div>
                 <div className="absolute left-10 top-80 md:left-50 md:top-50">
-                    <p className="font-black text-2xl md:text-4xl text-gray-900 md:text-gray-700">Phantom 65S</p>
-                    <button className="py-2 px-4 md:py-3 md:px-6 bg-[#000] text-[#fff] rounded-md">Learn More &gt;</button>
+                    <p className="font-black text-2xl md:text-4xl text-gray-900 md:text-gray-700">{currentHero.id}</p>
+                    <button style={{cursor:"pointer"}} className="py-2 px-4 md:py-3 md:px-6 bg-[#000] text-[#fff] rounded-md">Learn More &gt;</button>
                 </div>
             </div>
 
