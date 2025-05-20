@@ -19,6 +19,7 @@ export default function HomeUi(){
     const heroImages = [
         { src: "/riversong_hero_Phantom-65S.webp", id: "Phantom 65S" },
         { src: "/riversong_hero_motive9.webp", id: "Motive 9 Pro" },
+        {src:"/river_song_hero.jpg", id:"Phantom 65"}
         { src: "/riversong_hero_earpod.webp", id: "Utopia H5" },
         { src: "/rs_hero_da2.webp", id: "Rhythm M6" },
     ];
