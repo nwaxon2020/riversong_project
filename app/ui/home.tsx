@@ -30,7 +30,7 @@ export default function HomeUi(){
         
         const interval = setInterval(() => {
         setCurrentIndex((prev) => (prev + 1) % heroImages.length);
-        }, 30000);
+        }, 5000);
 
         return () => clearInterval(interval);
         
@@ -42,8 +42,8 @@ export default function HomeUi(){
         <div className="md:p-3">
             {/* Hero and Intro */}
             <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
-            <img className="hidden sm:flex w-full md:h-[35rem]" src={currentHero.src || "/riversong_hero_Phantom-65S.webp"} alt="hero Image" />
-                <img className="sm:hidden" src={currentHero.src || "/river_song_hero.jpg"} alt="hero Image" />
+                <img className="hidden sm:flex w-full md:h-[35rem]" src={currentHero.src || "/riversong_hero_Phantom-65S.webp"} alt="hero Image" />
+                <img className="sm:hidden w-full h-[18rem]" src={currentHero.src || "/river_song_hero.jpg"} alt="hero Image" />
 
                 <div className="block w-full p-5 text-center md:w-[22rem] h-auto md:absolute right-8 top-5 bg-[rgba(0,0,0,0.8)] text-gray-200 md:text-xl md:rounded-[2rem]">
                     <p> <span className="block mb-6 text-[goldenrod] font-bold">INNOVATION INSPIRED </span>
