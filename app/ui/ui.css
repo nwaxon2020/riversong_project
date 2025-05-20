@@ -1,0 +1,48 @@
+
+.slider{
+  
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+/* 536942 color for text */
+
+.a{
+  background-image: url("https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2403/18/photo/Hot-selling-1200x6082.png?x-oss-process=image/format,webp/quality,q_100");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.b{
+  background-image: url("https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2403/15/photo/-4.png?x-oss-process=image/format,webp/quality,q_100");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c{
+  background-image: url("https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2403/18/photo/Hot-selling-1200x6085-27eb.png?x-oss-process=image/format,webp/quality,q_100");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.d{
+  background-image: url("https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2403/18/photo/Hot-selling-1200x6084.png?x-oss-process=image/format,webp/quality,q_100");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.que{
+  background-color: #536942;
+  background-blend-mode: multiply;
+  background-image: url("/question_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
