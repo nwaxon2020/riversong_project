@@ -1,10 +1,9 @@
 "use client"
 import Link from "next/link"
 import "@/app/ui/ui.css"
-import Image from "next/image";
 
 export default function HomeUi(){
-
+    
     //working days
     const schedule = [
         { day: "Monday", time: "7:00 AM - 8:00 PM" },
@@ -20,8 +19,8 @@ export default function HomeUi(){
         <div className="md:p-3">
             {/* Hero and Intro */}
             <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
-                <Image className="hidden sm:flex w-full md:h-[40rem]" src={"riversong_hero_Phantom-65S.webp"} alt="hero Image" />
-                <Image className="sm:hidden" src="/river_song_hero.jpg" alt="hero Image" />
+                <img className="hidden sm:flex w-full md:h-[40rem]" src="/riversong_hero_Phantom-65S.webp" alt="hero Image" />
+                <img className="sm:hidden" src="/river_song_hero.jpg" alt="hero Image" />
 
                 <div className="block w-full p-5 text-center md:w-[22rem] h-auto md:absolute right-8 top-5 bg-[rgba(0,0,0,0.8)] text-gray-200 md:text-xl md:rounded-[2rem]">
                     <p> <span className="block mb-6 text-[goldenrod] font-bold">INNOVATION INSPIRED </span>
@@ -42,7 +41,7 @@ export default function HomeUi(){
                 <h1 className="mx-auto text-4xl text-[#536942] text-center col-span-3"><span className="font-black">O</span>ur Latest Products</h1> 
 
                 <div className="md:max-h-[40rem] rounded-sm w-full overflow-hidden bg-[#f5f5f5]">
-                    <Image className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_watch.jpg" alt="wriste watch image" />
+                    <img className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_watch.jpg" alt="wriste watch image" />
                     <div className="relative">
                         <p className="relative p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Motive 9 Pro</span> Unvail brilliance. View your content come to life in stunning details and brilliance, making every glance a breath taking experience.</p>
                         <button className="absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
@@ -50,7 +49,7 @@ export default function HomeUi(){
                 </div>
 
                 <div className="md:max-h-[40rem] rounded-sm w-full overflow-hidden bg-[#f5f5f5]">
-                    <Image className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_powerbank.jpg" alt="power bank image" />
+                    <img className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_powerbank.jpg" alt="power bank image" />
                     <div className="relative" >
                         <p className="p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Horizon 10</span>
                         Perfect for your daily use. Never stay offline with the new <span className="font-bold">Horizon 10,</span> equiped with type-C & B, fast-charging to keep your mobile battery alive.</p>
@@ -59,7 +58,7 @@ export default function HomeUi(){
                 </div>
 
                 <div className="md:max-h-[40rem] rounded-sm w-full overflow-hidden bg-[#f5f5f5]">
-                    <Image className="hover:scale-110 transition-all duration-500 w-full" src="riversong_earpod2.jpg" alt="earpod image" />
+                    <img className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_earpod2.jpg" alt="earpod image" />
                     <div className="relative">
                         <p className="relative p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Airfly L2</span>
                         Block the noise with advanced ENC {"(Environmental Noise Cancellation)"}. <span className="font-bold">Airfly L2</span> has maximum noise cancellation, it offers cristal clear sounds even in every bustling cities plus quality sounds bars to enjoy the beauty of music.
@@ -73,7 +72,7 @@ export default function HomeUi(){
             <div className="p-5 my-5 md:my-20 md:p-20 text-center md:text-4xl text-[#536942] bg-[#F6F8F5] font-[sans]">
                 <p className="mx-auto p-10 md:w-[40rem] ">&ldquo;Original in every way and with warranty, giving you qaulity above price. With our products every day is a win, a joy of fulfilment and as always a pleasure to work with.&rdquo;</p>
                 <div className="mx-auto w-25 h-25 rounded-full overflow-hidden">
-                    <Image className="w-full" src="/images_holder.png" alt="" />
+                    <img className="w-full" src="/images_holder.png" alt="" />
                 </div>
                 <div className="mx-auto  bg-gray-100">
                     <small className="text-sm font-extrabold"><span className="text-[goldenrod]">Mr. Wonuola</span> Lagos Branch Manager</small>
