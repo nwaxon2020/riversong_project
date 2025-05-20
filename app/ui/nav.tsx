@@ -24,7 +24,8 @@ export default function Nav(){
                     </ul>
                     <div className="flex gap-12">
                         <div><i className="fa fa-shopping-cart" style={{fontSize:"25px"}}></i></div>
-                        <div className="md:hidden" onClick={()=> !sideMenu? setSideMenue(true) : setSideMenue(false)}><i className="fa fa-bars" style={{fontSize:"25px"}}></i></div>
+                        <div className="md:hidden" onClick={()=> !sideMenu? setSideMenue(true) : setSideMenue(false)}><i className={!sideMenu ? "fa fa-bars" : "fa fa-angle-double-up"} style={{fontSize:"25px"}}></i></div>
+                        {/* <i class='fas ' style='font-size:24px'></i> */}
                     </div>
                 </div>
             </nav>

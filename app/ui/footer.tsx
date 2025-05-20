@@ -30,9 +30,9 @@ export default function Footer() {
         {/* Contact Section */}
         <div>
           <h3 className="text-xl font-bold text-white mb-4">Contact Us</h3>
-          <p className="text-sm">Dubai Office: JLT Jumeirah Bay X3 Tower, Cluster X, Office 3403</p>
-          <p className="text-sm mt-2">info@riversongtech.com</p>
-          <p className="text-sm mt-1">+971 4 583 9860</p>
+          <p className="text-sm">Lagos Office: No. 15, kodesoh street,off obafemi Awolowo Road,IKEJA.</p>
+          <p className="text-sm mt-2"><a className="text-blue-600 underline hover:text-white" href="mailto:Wonuola@RiversongAccessories.com">Wonuola@RiversongAccessories.com</a></p>
+          <p className="text-sm mt-1">+234 701 945 8438</p>
 
           {/* Social Icons */}
           <div className="ml-[38%] flex sm:ml-0 space-x-4 mt-4 text-white text-lg">

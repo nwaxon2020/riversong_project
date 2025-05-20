@@ -31,7 +31,7 @@ export default function HomeUi(){
                     </div>
                 </div>
                 <div className="absolute left-10 top-80 md:left-50 md:top-50">
-                    <p className="font-black text-2xl md:text-4xl text-gray-700">Phantom 65S</p>
+                    <p className="font-black text-2xl md:text-4xl text-gray-900 md:text-gray-700">Phantom 65S</p>
                     <button className="py-2 px-4 md:py-3 md:px-6 bg-[#000] text-[#fff] rounded-md">Learn More &gt;</button>
                 </div>
             </div>
@@ -74,7 +74,7 @@ export default function HomeUi(){
                 <div className="mx-auto w-25 h-25 rounded-full overflow-hidden">
                     <img className="w-full" src="/images_holder.png" alt="" />
                 </div>
-                <div className="mx-auto  bg-gray-100">
+                <div className="p-5 mx-auto  bg-gray-100">
                     <small className="text-sm font-extrabold"><span className="text-[goldenrod]">Mr. Wonuola</span> Lagos Branch Manager</small>
                     <small className="block text-sm"><span className="font-bold">contact:</span>  Wonuola@RiversongAccessories.com</small>
                     <small className="block text-sm"><span className="font-bold">Tel:</span> +234 810 794 4006</small>
