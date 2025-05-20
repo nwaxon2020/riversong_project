@@ -30,7 +30,7 @@ export default function HomeUi(){
         
         const interval = setInterval(() => {
         setCurrentIndex((prev) => (prev + 1) % heroImages.length);
-        }, 3000);
+        }, 30000);
 
         return () => clearInterval(interval);
         
