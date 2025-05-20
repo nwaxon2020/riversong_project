@@ -20,7 +20,7 @@ export default function HomeUi(){
         <div className="md:p-3">
             {/* Hero and Intro */}
             <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
-                <Image className="hidden sm:flex w-full md:h-[40rem]" src={"https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2403/25/photo/Phantom-65S.png?x-oss-process=image/format,webp/quality,q_100"} alt="hero Image" />
+                <Image className="hidden sm:flex w-full md:h-[40rem]" src={"riversong_hero_Phantom-65S.webp"} alt="hero Image" />
                 <Image className="sm:hidden" src="/river_song_hero.jpg" alt="hero Image" />
 
                 <div className="block w-full p-5 text-center md:w-[22rem] h-auto md:absolute right-8 top-5 bg-[rgba(0,0,0,0.8)] text-gray-200 md:text-xl md:rounded-[2rem]">

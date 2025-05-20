@@ -3,6 +3,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
 import "@/app/ui/ui.css"
+import Image from "next/image"
 
 export default function Nav(){
     const path = usePathname()
@@ -12,7 +13,7 @@ export default function Nav(){
         <div>
             <nav className="px-5 md:px-10 pt-8 pb-5 flex justify-between  gap-5 items-end bg-[#F46B27] md:bg-[rgba(0,0,0,0.7)] text-gray-200">
                 <div className="w-16 h-16 rounded-full overflow-hidden border-2 md:border-3 border-gray-200">
-                    <img className="w-full"  src="/river_song_logo.jpg" alt="logo image" />
+                    <Image className="w-full"  src="/river_song_logo.jpg" alt="logo image" />
                 </div>
 
                 <div className="flex justify-between items-end gap-20">
