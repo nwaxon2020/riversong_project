@@ -43,7 +43,7 @@ export default function HomeUi(){
             {/* Hero and Intro */}
             <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
                 <img className="hidden sm:flex w-full md:h-[35rem]" src={currentHero.src || "/riversong_hero_Phantom-65S.webp"} alt="hero Image" />
-                <img className="sm:hidden w-full h-[15rem]" src={currentHero.src || "/river_song_hero.jpg"} alt="hero Image" />
+                <img className="sm:hidden w-full h-[14rem]" src={currentHero.src || "/river_song_hero.jpg"} alt="hero Image" />
 
                 <div className="block w-full p-5 text-center md:w-[22rem] h-auto md:absolute right-8 top-5 bg-[rgba(0,0,0,0.8)] text-gray-200 md:text-xl md:rounded-[2rem]">
                     <p> <span className="block mb-6 text-[goldenrod] font-bold">INNOVATION INSPIRED </span>
@@ -55,7 +55,7 @@ export default function HomeUi(){
                 </div>
                 <div className="absolute left-10 top-80 md:left-50 md:top-50">
                     <p className="font-black text-2xl md:text-4xl text-gray-900 md:text-gray-700">{currentHero.id}</p>
-                    <button style={{cursor:"pointer"}} className="py-2 px-4 md:py-3 md:px-6 bg-[#000] text-[#fff] rounded-md">Learn More &gt;</button>
+                    <button className="cursor-pointer py-2 px-4 md:py-3 md:px-6 bg-[#000] hover:bg-gray-700 text-[#fff] rounded-md">Learn More &gt;</button>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@ export default function HomeUi(){
                     <img className="hover:scale-110 transition-all duration-500 w-full" src="/riversong_watch.jpg" alt="wriste watch image" />
                     <div className="relative">
                         <p className="relative p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Motive 9 Pro</span> Unvail brilliance. View your content come to life in stunning details and brilliance, making every glance a breath taking experience.</p>
-                        <button className="absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
+                        <button className="cursor-pointer absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
                     </div>
                 </div>
 
@@ -76,7 +76,7 @@ export default function HomeUi(){
                     <div className="relative" >
                         <p className="p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Horizon 10</span>
                         Perfect for your daily use. Never stay offline with the new <span className="font-bold">Horizon 10,</span> equiped with type-C & B, fast-charging to keep your mobile battery alive.</p>
-                        <button className="absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
+                        <button className="cursor-pointer absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ export default function HomeUi(){
                         <p className="relative p-5 w-full bg-[#f5f5f5] text-gray-500"><span className="m-5 block text-xl text-[#536942]">Airfly L2</span>
                         Block the noise with advanced ENC {"(Environmental Noise Cancellation)"}. <span className="font-bold">Airfly L2</span> has maximum noise cancellation, it offers cristal clear sounds even in every bustling cities plus quality sounds bars to enjoy the beauty of music.
                         </p>
-                        <button className="absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
+                        <button className="cursor-pointer absolute top-[-25px] m-2 font-bold py-2 px-10 text-gray-200 rounded-md bg-[#F46B27] hover:bg-[goldenrod] transition-all duration-100 ease-in-out">Pick Up</button>
                     </div>
                 </div>   
             </div>
@@ -117,16 +117,16 @@ export default function HomeUi(){
                 
                 {/* About Us Image Card */}
                 <div className="grid grid-cols-2 gap-4 p-5">
-                    <div className="a w-full h-[6rem] md:h-auto hover:scale-110 duration-600">
+                    <div className="a cursor-pointer w-full h-[6rem] md:h-auto hover:scale-110 duration-600">
                         <span className="px-2 py-4">Style</span>
                     </div>
-                    <div className="b w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
+                    <div className="b cursor-pointer w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
                         <span className="px-2 py-4">Jazz L7</span>
                     </div>
-                    <div className="c w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
+                    <div className="c cursor-pointer w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
                         <span className="px-2 py-4">PowerKub G-100</span>
                     </div>
-                    <div className="d w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
+                    <div className="d cursor-pointer w-full h-[6rem] md:h-auto hover:scale-110 duration-600 ">
                         <span className="px-2 py-4">Motive 9E</span>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function HomeUi(){
                     Whether you&apos;re curious about features, newly released products, or even repairs, we&apos;re here to answer any questions.
                 </p>
                 <a href="mailto:omowonuoladurojaiye@gmail.com">
-                    <button className="px-4 py-2 bg-[#F46B27] text-white rounded hover:opacity-[0.8] transition">
+                    <button className="cursor-pointer px-4 py-2 bg-[#F46B27] text-white rounded hover:opacity-[0.8] transition">
                        Let&apos;s Talk Now
                     </button>
                 </a>
