@@ -41,7 +41,7 @@ export default function HomeUi(){
     return(
         <div className="md:p-3">
             {/* Hero and Intro */}
-            <div className="overflow-hidden md:relative md:flex items-center md:max-h-[30rem] md:px-2 rounded-sm">
+            <div className="overflow-hidden md:relative md:flex items-center md:max-h-[35rem] md:px-2 rounded-sm">
                 <img className="hidden sm:flex w-full md:h-[35rem]" src={currentHero.src || "/riversong_hero_Phantom-65S.webp"} alt="hero Image" />
                 <img className="sm:hidden w-full h-[14rem]" src={currentHero.src || "/river_song_hero.jpg"} alt="hero Image" />
 

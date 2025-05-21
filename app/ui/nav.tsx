@@ -29,7 +29,9 @@ export default function Nav(){
                     </div>
                 </div>
             </nav>
-            <div className="p-5 mx-3 flex justify-center items-center"><input className="border-1 border-gray-300 w-[80%] max-w-[35rem] outline-none rounded-l-2xl text-gray-900 p-[0.50rem] bg-gray-100" type="text" placeholder="Search..."/><i className="p-[0.62rem] rounded-r-2xl hover:bg-blue-800 bg-blue-600 tex-gray-200 transition 100 ease-in-out fa fa-search" style={{fontSize:"20px"}}></i></div>
+
+            {/* Search Input */}
+            <div className="p-4 mx-3 flex justify-center items-center"><input className="border-1 border-gray-300 w-[80%] max-w-[35rem] outline-none rounded-l-2xl text-gray-900 p-[0.50rem] bg-gray-100" type="text" placeholder="Search..."/><i className="p-[0.62rem] rounded-r-2xl hover:bg-blue-800 bg-blue-600 tex-gray-200 transition 100 ease-in-out fa fa-search" style={{fontSize:"20px"}}></i></div>
 
             {
                 sideMenu && <div className="slider md:hidden absolute right-0 w-[70%] bg-gray-500 h-[80vh] z-30">
