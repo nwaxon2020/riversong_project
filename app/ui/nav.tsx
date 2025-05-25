@@ -17,10 +17,10 @@ export default function Nav(){
 
                 <div className="flex justify-between items-end gap-20">
                     <ul className="hidden list-none font-bold md:flex gap-20 items-end">
-                        <li><Link className={path === "/"? "text-green-400" : "hover:text-gray-400 transition 100 ease-in-out"} href={"/"}>Home</Link></li>
-                        <li><Link className={path === "/products"? "text-green-400" : "hover:text-gray-400 transition 100 ease-in-out"}  href={"/products"}>Products</Link></li>
-                        <li><Link className={path === "/about"? "text-green-400" : "hover:text-gray-400 transition 100 ease-in-out"}  href={"#"}>About</Link></li>
-                        <li><Link className={path === "/contact"? "text-green-400" : "hover:text-gray-400 transition 100 ease-in-out"} href={"#"}>Contact</Link></li>
+                        <li><Link className={path === "/"? "text-[#F46B27]" : "hover:text-gray-400 transition 100 ease-in-out"} href={"/"}>Home</Link></li>
+                        <li><Link className={path === "/products"? "text-[#F46B27]" : "hover:text-gray-400 transition 100 ease-in-out"}  href={"/products"}>Products</Link></li>
+                        <li><Link className={path === "/about"? "text-[#F46B27]" : "hover:text-gray-400 transition 100 ease-in-out"}  href={"#"}>About</Link></li>
+                        <li><Link className={path === "/contact"? "text-[#F46B27]" : "hover:text-gray-400 transition 100 ease-in-out"} href={"#"}>Contact</Link></li>
                     </ul>
                     <div className="flex gap-12">
                         <div><i className="fa fa-shopping-cart" style={{fontSize:"25px"}}></i></div>
@@ -36,10 +36,10 @@ export default function Nav(){
             {
                 sideMenu && <div className="slider md:hidden absolute right-0 w-[70%] bg-gray-500 h-[80vh] z-30">
                     <ul className="list-none font-bold flex-col items-start">
-                        <li className="p-3 mt-0 mb-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/"? "text-green-400 block" : "block hover:text-gray-400"} href={"/"}>Home</Link></li>
-                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/products"? "text-green-400 block" : "block hover:text-gray-400"}  href={"/products"}>Products</Link></li>
-                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/about"? "text-green-400 block" : "block hover:text-gray-400"}  href={"#"}>About</Link></li>
-                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/contact"? "text-green-400 block" : "block hover:text-gray-400"} href={"#"}>Contact</Link></li>
+                        <li className="p-3 mt-0 mb-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/"? "text-green-600 block" : "block hover:text-gray-400"} href={"/"}>Home</Link></li>
+                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/products"? "text-green-600 block" : "block hover:text-gray-400"}  href={"/products"}>Products</Link></li>
+                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/about"? "text-green-600 block" : "block hover:text-gray-400"}  href={"#"}>About</Link></li>
+                        <li className="p-3 my-1 bg-gray-300" onClick={()=> setSideMenue(false)}><Link className={path === "/contact"? "text-green-600 block" : "block hover:text-gray-400"} href={"#"}>Contact</Link></li>
                     </ul>
                 </div>
             }
