@@ -4,14 +4,14 @@ import { useState } from "react"
 
 export default function ProductListItems(){
 
-    interface productz{
-        id: number,
-        name: string,
-        img: string,
-        price: string,
-        qty: number,
-        qty_left: number
-    }
+    // interface productz{
+    //     id: number,
+    //     name: string,
+    //     img: string,
+    //     price: string,
+    //     qty: number,
+    //     qty_left: number
+    // }
 
     const productListItems = [
         {
@@ -87,7 +87,7 @@ export default function ProductListItems(){
 
     return(
         <div className="p-2 md:p-10 my-5 md:my-10 grid grid-cols-2 lg:grid-cols-4 justify-items-center items-center">
-            {productListItems.map((prod, index)=>{
+            {productListItems.map((prod)=>{
                 return(
                     <div key={prod.id} className={"my-15 w-[11.5rem] md:w-72 shadow-lg rounded-b-lg"}>
                         <div className={`${clicked? "bg-[#F46B27]" : "bg-gray-600"} shadow-lg rounded-lg p-2 relative w-full h-full group overflow-hidden rounded-md`}>
