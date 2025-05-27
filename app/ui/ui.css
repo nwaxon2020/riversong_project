@@ -48,13 +48,18 @@
   background-size: cover;
 }
 
-/* About Wonuola */
+/* About Wonu */
 .abt{
   background-image: url("/HK-2.webp");
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
   background-color: #9292a7;
+}
+@media (max-width: 780px) {
+  .abt{
+    background-size: cover;
+  }
 }
 
 /* Star rating */
