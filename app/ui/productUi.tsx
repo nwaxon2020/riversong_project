@@ -240,10 +240,12 @@ export default function ProductUi() {
                 </div>
 
                 {/* Contact Wonu */}
-                <div className="mt-14 md:mt-0 w-full h-full md:h-110 abt p-3 md:p-10 md:flex rounded-lg items-end">
-                    <div className=" text-center w-24 h-24 rounded-full border-2 border-white overflow-hidden"><img className="w-full object-center cover mixauto" src="/wonu.jpg" alt="Site Onwer's picture" /></div>
+                <div className="mt-14 md:mt-0 w-full h-full md:h-110 abt p-3 md:flex justify-center rounded-lg items-end">
+                    <div className="text-center md:mx-2 w-24 h-24 rounded-full border-2 border-white overflow-hidden">
+                        <img className="w-full object-center cover mixauto" src="/wonu.jpg" alt="Site Onwer's picture" />
+                    </div>
 
-                    <div className="w-full mx-auto px-6 py-2 rounded-lg border-2 border-white text-white bg-[rgba(0,0,0,0.7)]">
+                    <div className="mx-auto md:mx-2 px-6 py-2 rounded-lg border-2 border-white text-white bg-[rgba(0,0,0,0.7)]">
                         <h3 className="font-bold">Mr. Durojaye Omowonuola</h3><hr />
                         <small className="font-light" style={{wordSpacing: "0.25rem"}}>
                             Accessories Department Manager.
