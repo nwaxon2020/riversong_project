@@ -238,6 +238,7 @@ export default function ProductUi() {
                     </form>
                 </div>
 
+                {/* Contact Wonu */}
                 <div className="mt-14 md:mt-0 w-full h-full md:h-110 abt p-10 md:flex rounded-lg start items-end">
                     <div className=" text-center w-24 h-24 rounded-full border-2 border-white overflow-hidden"><img className="w-full object-center cover mixauto" src="/wonu.jpg" alt="Site Onwer's picture" /></div>
 
@@ -245,7 +246,7 @@ export default function ProductUi() {
                         <h3 className="font-bold">Mr. Durojaye Omowonuola</h3><hr />
                         <small className="font-light" style={{wordSpacing: "0.25rem"}}>
                             Accessories Department Manager.
-                            <br />For contact please <Link className=" text-blue-300 underline text-sm" href={"/#contact"}>visit Home page</Link>
+                            <br />For contact please <Link className="mb-3 leading-[7px] flex text-blue-300 underline text-sm" href={"/#contact"}>visit Home page</Link>
                         </small>
                     </div>
                 </div>
