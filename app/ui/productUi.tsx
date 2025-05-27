@@ -106,7 +106,7 @@ export default function ProductUi() {
                     allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                 ></iframe>
-                <p>Product Reviews</p>
+                <small>Product Reviews</small>
             </div>
 
 
