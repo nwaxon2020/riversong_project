@@ -15,7 +15,7 @@ export default function Product() {
 
   return (
     <div>
-        <h2 className="pt-6 pb-0 px-4 md:p-10 text-2xl font-bold mb-2">PRODUCTS</h2>
+        <h2 className="pt-6 pb-0 px-4 md:p-10 text-2xl font-black mb-2">PRODUCTS</h2>
 
         <ProductUi />  
 

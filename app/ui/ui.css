@@ -1,4 +1,4 @@
-
+/* Slide animations */
 .slider{
   
   animation: slideIn 0.5s ease-out forwards;
@@ -46,4 +46,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* About Wonuola */
+.abt{
+  background-image: url("/HK-2.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: #9292a7;
+}
+
+/* Star rating */
+.checked {
+  color: orange;
 }
