@@ -92,14 +92,14 @@ export default function HomeUi(){
             </div>
 
             {/* Inspiration Message */}
-            <div className="p-5 my-5 md:my-20 md:p-20 text-center md:text-4xl text-[#536942] bg-[#F6F8F5] font-[sans]">
+            <div id="contact" className="p-5 my-5 md:my-20 md:p-20 text-center md:text-4xl text-[#536942] bg-[#F6F8F5] font-[sans]">
                 <p className="mx-auto p-10 md:w-[40rem] ">&ldquo;Original in every way and with warranty, giving you qaulity above price. With our products every day is a win, a joy of fulfilment and as always a pleasure to work with.&rdquo;</p>
                 <div className="mx-auto w-25 h-25 rounded-full overflow-hidden">
-                    <img className="w-full" src="/images_holder.png" alt="" />
+                    <img className="w-full" src="/wonu.jpg" alt="" />
                 </div>
                 <div className="p-5 mx-auto  bg-gray-100">
                     <small className="text-sm font-extrabold"><span className="text-[goldenrod]">Mr. Wonuola</span> Lagos Branch Accessories Manager</small>
-                    <small className="block text-sm"><span className="font-bold">contact:</span>  Wonuola@RiversongAccessories.com</small>
+                    <small className="block text-sm"><span className="font-bold">contact:</span>  <a className="text-blue-700 underline hover:text-blue-500" href="mailto:Wonuola@RiversongAccessories.com">Wonuola@RiversongAccessories.com</a></small>
                     <small className="block text-sm"><span className="font-bold">Tel:</span> +234 810 794 4006</small>
                 </div>
             </div>

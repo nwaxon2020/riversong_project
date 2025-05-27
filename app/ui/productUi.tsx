@@ -111,9 +111,9 @@ export default function ProductUi() {
 
 
 
-            {/* Phone Product lists 1 */}
-            <div className="px-10 md:p-20 md:grid grid-cols-4 gap-4">
-                <h2 className="py-5 text-[#F46B27] font-extrabold col-span-4">Available Products</h2>
+            {/* Available Products Container */}
+            <div className="px-10 md:p-20 md:grid grid-cols-4 gap-4 justify-items-center">
+                <h2 className="justify-self-start py-5 text-[#F46B27] font-extrabold col-span-4">Available Products</h2>
                 {products.map((prod)=>{
                     return(
                         <div key={prod.id} className="mb-28 bg-[#FFFFFF] p-3 shadow-lg rounded-lg w-full md:w-72 shadow-lg">
@@ -166,7 +166,7 @@ export default function ProductUi() {
 
 
 
-            {/* Phone Product lists 2*/}
+            {/* Things you may also like*/}
             <ProductListItems/>
 
             {/* Reviews */}       
@@ -226,26 +226,26 @@ export default function ProductUi() {
                     <form action="">
                         <input className="mx-auto mb-2 border-1 rounded-lg border-gray-400 p-3 w-full" type="text" name="username" placeholder="Name"/>
                         <textarea className="bg-gray-100 p-2 w-full" name="review" placeholder="Whats's on your mind?" rows={4}></textarea>
-                        <div className="py-2 flex flex-nowrap items-center justify-start">
-                            <p className="text-green-700 font-bold pr-2">Rate Us:</p>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
+                        <div className="py-6 flex flex-nowrap items-center justify-start">
+                            <p className="text-green-700 font-bold pr-4">Rate Us:</p>
+                            <span className="w-10 fa fa-star"></span>
+                            <span className="w-10 fa fa-star"></span>
+                            <span className="w-10 fa fa-star"></span>
+                            <span className="w-10 fa fa-star"></span>
+                            <span className="w-10 fa fa-star"></span>
                         </div>
                         <button className="mx-auto p-3 w-full rounded-sm mx-2 bg-gray-900 text-white font-semibold hover:bg-gray-700 transition delay-200 cursor-pointer ease-in-out" type="submit">Comment</button>
                     </form>
                 </div>
 
                 <div className="mt-14 md:mt-0 w-full h-full md:h-110 abt p-10 md:flex rounded-lg start items-end">
-                    <div className=" text-center w-24 h-24 rounded-full border-2 border-white overflow-hidden"><img className="w-full" src="/river_song_logo.jpg" alt="Site Onwer's picture" /></div>
+                    <div className=" text-center w-24 h-24 rounded-full border-2 border-white overflow-hidden"><img className="w-full object-center cover mixauto" src="/wonu.jpg" alt="Site Onwer's picture" /></div>
 
                     <div className="mx-auto mt-5 px-6 py-2 rounded-lg border-2 border-white text-white bg-[rgba(0,0,0,0.7)]">
                         <h3 className="font-bold">Mr. Durojaye Omowonuola</h3><hr />
                         <small className="font-light" style={{wordSpacing: "0.25rem"}}>
                             Accessories Department Manager.
-                            <br />For contact please <Link className=" text-blue-300 underline text-sm" href={"/"}>visit Home page</Link>
+                            <br />For contact please <Link className=" text-blue-300 underline text-sm" href={"/#contact"}>visit Home page</Link>
                         </small>
                     </div>
                 </div>
@@ -253,7 +253,7 @@ export default function ProductUi() {
             </div>
 
 
-            {/* Videos */}
+            {/* How to use Videos */}
             <div className="mt-10 p-5 md:p-10">
                 <h2 className="py-5 text-[#F46B27] font-extrabold">How to use</h2><hr />
 
