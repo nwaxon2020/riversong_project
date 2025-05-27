@@ -98,7 +98,7 @@ export default function HomeUi(){
                     <img className="w-full" src="/images_holder.png" alt="" />
                 </div>
                 <div className="p-5 mx-auto  bg-gray-100">
-                    <small className="text-sm font-extrabold"><span className="text-[goldenrod]">Mr. Wonuola</span> Lagos Branch Manager</small>
+                    <small className="text-sm font-extrabold"><span className="text-[goldenrod]">Mr. Wonuola</span> Lagos Branch Accessories Manager</small>
                     <small className="block text-sm"><span className="font-bold">contact:</span>  Wonuola@RiversongAccessories.com</small>
                     <small className="block text-sm"><span className="font-bold">Tel:</span> +234 810 794 4006</small>
                 </div>
