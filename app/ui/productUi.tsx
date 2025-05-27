@@ -106,7 +106,7 @@ export default function ProductUi() {
                     allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                 ></iframe>
-
+                <p>Product Reviews</p>
             </div>
 
 
@@ -263,18 +263,24 @@ export default function ProductUi() {
 
                 <div className="grid md:grid-cols-2 gap-2 md:gap-6 justify-items-center items-center">
                     <div className="my-2 md:my-10 p-2 md:p-10 shadow-lg overflow-hidden grid md:grid-cols-2 gap-0 justify-items-center items center">
-                        <video className="w-[18rem] h-[7.5rems] md:w-[30rem] md:h-[15rem]" autoPlay muted loop playsInline>
-                            <source src="/videos/powerbank.mp4" type="video/mp4" />
-                        </video>
+                        <div>
+                            <video className="w-[18rem] h-[7.5rems] md:w-[30rem] md:h-[15rem]" autoPlay muted loop playsInline>
+                                <source src="/videos/powerbank.mp4" type="video/mp4" />
+                            </video>
+                            <p className="text-[#536942] font-semibold bg-gray-200 p-3 md:rounded-lg">Riversong Earbod2</p>
+                        </div>
                         <div className="w-[18rem] h-[18rem]">
                             <img className="w-full h-full object-cover mx-auto" src="/riversong_earpod2.jpg" alt="" />
                         </div>
                     </div>
 
                     <div className="my-2 md:my-10 p-2 md:p-10 shadow-lg overflow-hidden grid md:grid-cols-2 gap-0 justify-items-center items center">
-                        <video className="w-[18rem] h-[7.5rems] md:w-[30rem] md:h-[15rem]" autoPlay muted loop playsInline>
-                            <source src="/videos/earpies_vid.mp4" type="video/mp4" />
-                        </video>
+                        <div>
+                            <video className="w-[18rem] h-[7.5rems] md:w-[30rem] md:h-[15rem]" autoPlay muted loop playsInline>
+                                <source src="/videos/earpies_vid.mp4" type="video/mp4" />
+                            </video>
+                            <p className="text-[#536942] font-semibold bg-gray-200 p-3 md:rounded-lg">Earbod-912</p>
+                        </div>
                         <div className="w-[18rem] h-[18rem]">
                             <img className="w-full h-full object-cover mx-auto" src="/riversong_earpod.jpg" alt="" />
                         </div>
