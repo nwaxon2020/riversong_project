@@ -112,8 +112,8 @@ export default function ProductUi() {
 
 
             {/* Available Products Container */}
-            <div className="px-10 md:p-20 md:grid grid-cols-4 gap-4 justify-items-center">
-                <h2 className="justify-self-start py-5 text-[#F46B27] font-extrabold col-span-4">Available Products</h2>
+            <h2 className="justify-self-start px-8 mb-6 md:px-24 pt-18 md:mb-[-3rem] text-[#F46B27] font-extrabold col-span-4">Available Products</h2>
+            <div className="px-10 flex flex-wrap justify-around md:p-20 gap-4 ">                
                 {products.map((prod)=>{
                     return(
                         <div key={prod.id} className="mb-28 bg-[#FFFFFF] p-3 shadow-lg rounded-lg w-full md:w-72 shadow-lg">
@@ -167,6 +167,7 @@ export default function ProductUi() {
 
 
             {/* Things you may also like*/}
+            <h2 className="mt-15 md:mt-35 mb-[-3rem] md:mb-[-5rem] px-2 md:px-15 py-5 text-[#F46B27] font-extrabold">Things You May Like</h2>
             <ProductListItems/>
 
             {/* Reviews */}       
@@ -242,7 +243,7 @@ export default function ProductUi() {
                 <div className="mt-14 md:mt-0 w-full h-full md:h-110 abt p-3 md:p-10 md:flex rounded-lg items-end">
                     <div className=" text-center w-24 h-24 rounded-full border-2 border-white overflow-hidden"><img className="w-full object-center cover mixauto" src="/wonu.jpg" alt="Site Onwer's picture" /></div>
 
-                    <div className="mx-auto px-6 py-2 rounded-lg border-2 border-white text-white bg-[rgba(0,0,0,0.7)]">
+                    <div className="w-full mx-auto px-6 py-2 rounded-lg border-2 border-white text-white bg-[rgba(0,0,0,0.7)]">
                         <h3 className="font-bold">Mr. Durojaye Omowonuola</h3><hr />
                         <small className="font-light" style={{wordSpacing: "0.25rem"}}>
                             Accessories Department Manager.
