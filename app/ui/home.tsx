@@ -165,6 +165,23 @@ export default function HomeUi(){
                 </table>
             </div>
 
+            <div className="mx-2 my-10 md:m-10 p-2 md:p-10 bg-white text-gray-700 max-h-[35rem] overflow-y-auto">
+                <h2 className="py-5 text-[#536942] font-extrabold col-span-4">News</h2>
+                <div className="p-2 mb-8">
+                    <img className="m-2 w-[15rem] h-auto" style={{float:"right"}} src="riversong_hero_Phantom-65S.webp" alt="" />
+                    <p className="px-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit pariatur consectetur iste maiores! Nemo laudantium natus a, sint perspiciatis aut architecto nam vitae dolorem, repudiandae eveniet minima libero, praesentium tempora delectus quam? Quibusdam odio nostrum tenetur inventore incidunt commodi magni ab, obcaecati corporis, nemo, expedita similique laborum repudiandae perspiciatis ipsam labore facere distinctio tempore! Cum, veniam! Veniam, nam saepe. Aliquam eius quos exercitationem! Voluptatum quam quisquam laborum perspiciatis velit numquam sint itaque reiciendis iusto, quo est inventore quia dicta, quae doloremque? Unde repellat maiores dicta. Doloremque ipsa sed vitae a, sunt illo neque voluptas eaque voluptatum ad eum assumenda veritatis!
+                        
+                    </p>
+                </div>
+
+                <div className="p-2 mb-8 bg-gray-200">
+                    <img className="m-2 w-[15rem] h-auto" style={{float:"left"}} src="https://ueeshop.ly200-cdn.com/u_file/UPBA/UPBA381/2407/18/photo/Trinity-20240062801.jpg?x-oss-process=image/format,webp/quality,q_100" alt="" />
+                    <p className="px-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit pariatur consectetur iste maiores! Nemo laudantium natus a, sint perspiciatis aut architecto nam vitae dolorem, repudiandae eveniet minima libero, praesentium tempora delectus quam? Quibusdam odio nostrum tenetur inventore incidunt commodi magni ab, obcaecati corporis, nemo, expedita similique laborum repudiandae perspiciatis ipsam labore facere distinctio tempore! Cum, veniam! Veniam, nam saepe. Aliquam eius quos exercitationem! Voluptatum quam quisquam laborum perspiciatis velit numquam sint itaque reiciendis iusto, quo est inventore quia dicta, quae doloremque? Unde repellat maiores dicta. Doloremque ipsa sed vitae a, sunt illo neque voluptas eaque voluptatum ad eum assumenda veritatis!
+                        
+                    </p>
+                </div>
+            </div>
+
         </div>
         
     )

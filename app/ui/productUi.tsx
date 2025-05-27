@@ -112,7 +112,8 @@ export default function ProductUi() {
 
 
             {/* Phone Product lists 1 */}
-            <div className="p-10 md:p-20 md:grid grid-cols-4 gap-4">
+            <div className="px-10 md:p-20 md:grid grid-cols-4 gap-4">
+                <h2 className="py-5 text-[#F46B27] font-extrabold col-span-4">Available Products</h2>
                 {products.map((prod)=>{
                     return(
                         <div key={prod.id} className="mb-28 bg-[#FFFFFF] p-3 shadow-lg rounded-lg w-full md:w-72 shadow-lg">
@@ -144,7 +145,8 @@ export default function ProductUi() {
             </div>
 
             {/* Google map and Location */}
-            <div className="bg-gray-900 md:bg-gray-300 p-4 mt-20 grid gap-0 justify-items-center items-center grid-cols-1 md:grid-cols-2">
+            <h2 className="p-4 mt-0 py-5 text-[#F46B27] font-extrabold z-30">Locate us</h2>
+            <div className="bg-gray-900 md:bg-gray-300 p-4 grid gap-0 justify-items-center items-center grid-cols-1 md:grid-cols-2">
                 <div>
                     <div className="md:hidden">
                         <iframe className="w-full h-auto md:w-[600px] h-[450px]" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31707.06926540197!2d3.325367691898957!3d6.599150457068119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s15%20kodesoh%20street%2Coff%20obafemi%20Awolowo%20Road%2CIKEJA.!5e0!3m2!1sen!2sng!4v1748220274482!5m2!1sen!2sng" style={{border:"0"}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
